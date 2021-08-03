@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(186, 248, 248);
+    margin: 0px;
+}
+
+#wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+    color: red;
+    background-color: rgb(168, 178, 189);
+}
+
+.header-buttons{
+    background-color: transparent;
+    border: none;
+    font-size: 14;
+    padding: 25px;
+}
+
+#intro-div {
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.intro-button {
+    background-color: rgb(168, 178, 189);
+    font-size: 14px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border: 2px solid red;
+    padding: 5px;
+    transition-duration: 0.4s;
+    
+
+}
+#intro-div-button {
+    margin-top: 40px;
+   
+}
+.intro-button:hover {
+    background-color:rgb(186, 248, 248);
+    color: red;
+}
+.intro-button:focus {
+    outline: none;
+}
+#intro-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#what-i-do {
+
+    margin: 25px;
+}
+.projects {
+   display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#what-i-do{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
